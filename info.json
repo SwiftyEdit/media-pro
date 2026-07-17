@@ -1,0 +1,18 @@
+{
+  "addon": {
+    "name": "mediaPro",
+    "version": "1.0.5",
+    "author": "SwiftyEdit Developer Team",
+    "description": "Compress and/or resize existing media files"
+  },
+  "navigation": [
+    {
+      "text": "nav_start",
+      "file": "start"
+    },
+    {
+      "text": "nav_settings",
+      "file": "settings"
+    }
+  ]
+}

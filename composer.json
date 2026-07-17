@@ -1,0 +1,25 @@
+{
+  "name": "swiftyedit/media-pro.mod",
+  "type": "swiftyedit-addon",
+  "description": "Compress uploaded media files",
+  "homepage": "https://swiftyedit.org",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "SwiftyEdit Developer Team",
+      "role": "Developer",
+      "homepage": "https://github.com/SwiftyEdit/SwiftyEdit"
+    }
+  ],
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "platform": {
+      "php": "8.1"
+    },
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "tinify/tinify": "1.6.1"
+  }
+}
