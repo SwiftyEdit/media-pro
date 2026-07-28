@@ -8,6 +8,10 @@
 
 if(!is_file("$mod_db")) {
 
+    if(!is_dir(dirname($mod_db))) {
+        mkdir(dirname($mod_db), 0755, true);
+    }
+
     echo '<p class="alert alert-info">We try to generate SQLite File: '.$mod_db.'</p>';
 
     $sql_uploads_table = generate_sql_query(SE_ROOT."/plugins/media-pro/install/tpl-log.php");
