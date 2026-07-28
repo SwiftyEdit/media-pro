@@ -1,10 +1,23 @@
 {
   "addon": {
+    "id": "media-pro",
     "name": "mediaPro",
+    "type": "plugin",
     "version": "1.0.6",
+    "build": 1,
     "author": "SwiftyEdit Developer Team",
-    "description": "Compress and/or resize existing media files"
+    "description": "Compress and/or resize existing media files",
+    "database": "mediapro.sqlite3",
+    "update_url": "https://raw.githubusercontent.com/SwiftyEdit/media-pro/main/info.json"
   },
+  "versions": [
+    {
+      "version": "1.0.6",
+      "build": 1,
+      "requires_build": "26-0183",
+      "download_url": "https://github.com/SwiftyEdit/media-pro/releases/download/v1.0.6/media-pro-1.0.6.zip"
+    }
+  ],
   "navigation": [
     {
       "text": "nav_start",
