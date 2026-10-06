@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c07ba0aa1bca6cb67a32a3e94625849",
+    "content-hash": "07220eae7a05c519ff9ef6fa65768d0d",
     "packages": [
         {
             "name": "tinify/tinify",
-            "version": "1.6.1",
+            "version": "1.6.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tinify/tinify-php.git",
-                "reference": "1d23f5069f450dc33dd062083a825be2baed48ea"
+                "reference": "9b2085ba41f2eb7419dc372606917e82d304abfd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tinify/tinify-php/zipball/1d23f5069f450dc33dd062083a825be2baed48ea",
-                "reference": "1d23f5069f450dc33dd062083a825be2baed48ea",
+                "url": "https://api.github.com/repos/tinify/tinify-php/zipball/9b2085ba41f2eb7419dc372606917e82d304abfd",
+                "reference": "9b2085ba41f2eb7419dc372606917e82d304abfd",
                 "shasum": ""
             },
             "require": {
@@ -62,19 +62,19 @@
             "support": {
                 "email": "support@tinify.com",
                 "issues": "https://github.com/tinify/tinify-php/issues",
-                "source": "https://github.com/tinify/tinify-php/tree/1.6.1"
+                "source": "https://github.com/tinify/tinify-php/tree/1.6.4"
             },
-            "time": "2023-02-21T14:51:21+00:00"
+            "time": "2025-12-10T11:19:51+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": {},
-    "platform-dev": {},
+    "platform": [],
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.1"
     },

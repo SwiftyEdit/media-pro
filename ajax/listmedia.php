@@ -198,6 +198,6 @@ try {
 } catch(\Tinify\Exception $e) {
     // Validation of API key failed.
     echo '<div class="alert alert-danger">';
-    echo 'Validation of API key failed.';
+    echo 'Validation of API key failed: '.htmlspecialchars($e->getMessage());
     echo '</div>';
 }

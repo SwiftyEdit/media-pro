@@ -11,10 +11,10 @@ if(isset($_POST['rebase_data'])) {
 }
 
 if(isset($_POST['apikey'])) {
-    $key = $_POST['apikey'];
+    $key = trim($_POST['apikey']);
     $api_file = fopen($mod_root.'data/apikey.php',"w");
     $content = "<?php\n";
-    $content .= "\$tinypng_api_key=\"$key\";";
+    $content .= "\$tinypng_api_key=".var_export($key, true).";";
     fwrite($api_file, $content);
     fclose($api_file);
     include $mod_root.'data/apikey.php';
