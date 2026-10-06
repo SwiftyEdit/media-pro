@@ -130,7 +130,7 @@ $sidebar .= '<input type="hidden" name="csrf_token" value="'.$_SESSION['token'].
 $sidebar .= '</div>';
 
 try {
-    \Tinify\setKey("$tinypng_api_key");
+    mp_tinify_set_key((string) $tinypng_api_key);
     \Tinify\validate();
 
     $compressionsThisMonth = \Tinify\compressionCount();

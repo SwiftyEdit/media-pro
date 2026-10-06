@@ -24,7 +24,7 @@ $destination = '../public/assets/images/'.$path_info['dirname'].'/'.$path_info['
 $init_filesize = (int) $get_data["media_filesize"];
 
 try {
-    \Tinify\setKey("$tinypng_api_key");
+    mp_tinify_set_key((string) $tinypng_api_key);
     \Tinify\validate();
 
     $compressionsThisMonth = \Tinify\compressionCount();
